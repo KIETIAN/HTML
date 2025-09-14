@@ -1,0 +1,18 @@
+h1,h2,h3,h4,h5,h6{
+
+    color:rgb(204, 165, 117);
+    text-align: center;
+    margin : 10px;
+    border: 40px;
+    font-family: 'Times New Roman';
+  
+    
+}
+.tagore{
+    color:rgb(139, 44, 28);
+    text-align:center;
+    background-color: beige;
+}
+.box{
+    background-color: rgb(198, 190, 205);
+}
