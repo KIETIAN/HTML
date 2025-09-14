@@ -1,0 +1,17 @@
+h1{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkblue;
+    text-align: center;
+}
+p{
+    text-indent: 10px;
+     color:rgb(139, 44, 28);
+    text-align:center;
+    background-color: beige;
+
+}
+table{
+    color:rgb(16, 183, 53);
+    background-color: chartreuse;
+}
