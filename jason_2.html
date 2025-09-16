@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Object and JSON Conversion</h2>
+
+<p id="demo"></p>
+<p id="demo2"></p>
+<p id="demo3"></p>
+
+<script>
+// Step 1: Create a JavaScript array of objects
+var employees = [
+    { "firstName":"John", "lastName":"Doe" }, 
+    { "firstName":"Anna", "lastName":"Smith" },
+    { "firstName":"Peter", "lastName":"Jones" }
+];
+
+// Step 2: Access JavaScript object directly
+document.getElementById("demo").innerHTML =
+"Direct JS Object Access: " + employees[0].firstName + " " + employees[0].lastName;
+
+// Step 3: Convert JavaScript object → JSON string
+var jsonString = JSON.stringify(employees);
+document.getElementById("demo2").innerHTML =
+"JSON String (stringify): " + jsonString;
+
+// Step 4: Convert JSON string → JavaScript object
+var parsedEmployees = JSON.parse(jsonString);
+document.getElementById("demo3").innerHTML =
+"Parsed JSON back to Object: " + parsedEmployees[1].firstName + " " + parsedEmployees[1].lastName;
+
+</script>
+
+</body>
+</html>
